@@ -10,7 +10,7 @@ Build the executable:
 I built the interpreter to either run by using a switch or a direct thread implementation (which I explained more in the speed.md document in /docs). You can initialize registers to have initial values by writing in the register number and the value at the end of the command
 
 Running the program:
-> interpreter.exe <input file> <output file (without .txt)> [-S (switch) or -G (goto) or -B (both)] <<register> <value>>
+> interpreter.exe input_file.bin output_file [-S (switch) or -G (goto) or -B (both)] register value register value ...
 
 Example:
 > ./interpreter.exe ../tests/primality.bin out -B 11 97 13 57 21 22
